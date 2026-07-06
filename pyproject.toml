@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-chatbot-with-pinecone"
+version = "0.1.0"
+description = "Retrieval-Augmented Generation chatbot using Pinecone and Python."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "openai",
+    "pinecone-client",
+    "langchain",
+    "python-dotenv",
+]
